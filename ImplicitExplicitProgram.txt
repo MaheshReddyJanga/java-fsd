@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package ImpliciExplict;
 
 import java.util.Scanner;
@@ -42,3 +43,49 @@ Result by doing imlplicit of num1 and num2 246.0
 
 
 Result by doing Explicit of num1 and num2 246
+=======
+package ImpliciExplict;
+
+import java.util.Scanner;
+
+
+public class ImplictExplict {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Implicit function & EXlpicit function ");
+		System.out.println();
+		System.out.println("Enter a integer value");
+		int num1=sc.nextInt();
+		System.out.println("num1 : "+num1);
+		System.out.println("enter a double value");
+		double num2=sc.nextInt();
+		System.out.println("num2 :"+num2);
+		
+		double Result1=num1+num2; //Implicitly adding both double and integer value to be a double value result
+		System.out.println();
+		System.out.println("Result by doing imlplicit of num1 and num2 "+Result1);
+		System.out.println();
+		int Result2=(int)(num1+num2); //Explicitly adding both double and integer value to be an integer result
+		System.out.println();
+		System.out.println("Result by doing Explicit of num1 and num2 "+Result2);
+		
+	}
+
+}
+>>output>>
+Implicit function & EXlpicit function 
+
+Enter a integer value
+123
+num1 : 123
+enter a double value
+123
+num2 :123.0
+
+Result by doing imlplicit of num1 and num2 246.0
+
+
+Result by doing Explicit of num1 and num2 246
+>>>>>>> 8e4642fa494a365750d75bc277505bb6ea088d38
